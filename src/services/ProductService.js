@@ -1,7 +1,7 @@
 // src/services/productService.js
 import axios from "axios";
-
-const API_URL = "http://localhost:5000/api/v1/product/";
+const backendUrl = "https://all-mart-e-com-server.onrender.com";
+const API_URL = `${backendUrl}/api/v1/product/`;
 
 const getAllProducts = () => axios.get(API_URL);
 const createProduct = (product) => axios.post(API_URL, product);
