@@ -39,6 +39,7 @@ const ProductList = () => {
             <th className="border px-4 py-2">Name</th>
             <th className="border px-4 py-2">Description</th>
             <th className="border px-4 py-2">Category</th>
+            <th className="border px-4 py-2">Brand</th>
             <th className="border px-4 py-2">Stock</th>
             <th className="border px-4 py-2">Selling Price</th>
             <th className="border px-4 py-2">Cost Price</th>
@@ -59,6 +60,9 @@ const ProductList = () => {
               <td className="border px-4 py-2">{product.desc}</td>
               <td className="border px-4 py-2">
                 {product.category?.name || "N/A"}
+              </td>
+              <td className="border px-4 py-2">
+                {product.brand?.name || "N/A"}
               </td>
               <td className="border px-4 py-2">{product.stock}</td>
               <td className="border px-4 py-2">

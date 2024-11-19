@@ -5,6 +5,11 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Products from "./pages/Products";
 import Categories from "./pages/Categories";
+import Brand from "./pages/Brand";
+import HomeCategory from "./pages/HomeCategory";
+import AdminDealsPage from "./pages/AdminDealsPage";
+import OfferPage from "./pages/OfferPage";
+import DealsPage from "./pages/DealsPage";
 
 function App() {
   return (
@@ -15,6 +20,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/brands" element={<Brand />} />
+          <Route path="/homeCategory" element={<HomeCategory />} />
+          <Route path="/admin-deals" element={<AdminDealsPage />} />
+          <Route path="/offer-page" element={<OfferPage />} />
+          <Route path="/deal-page" element={<DealsPage />} />
         </Routes>
       </div>
     </Router>
