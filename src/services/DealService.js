@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-const backendUrl = "https://all-mart-e-com-server.onrender.com";
+const backendUrl = "https://allmart-ecom-server.onrender.com";
 const API_URL = `${backendUrl}/api/v1/deal`;
 
 const getAllDeals = () => axios.get(API_URL);
