@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaDollarSign } from "react-icons/fa";
 import { FaTruck } from "react-icons/fa";
 
-import productService from "../services/productService";
+import productService from "../services/ProductService";
 
 const Home = () => {
 

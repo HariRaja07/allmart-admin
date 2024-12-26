@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import DealService from "../services/DealService";
-import productService from "../services/productService";
+import productService from "../services/ProductService";
 
 const DealsForm = ({ onSave }) => {
   const [deals, setDeals] = useState({
