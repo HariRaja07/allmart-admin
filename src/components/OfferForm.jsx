@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import offerService from "../services/offerService";
 import productService from "../services/productService";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 import brandService from "../services/brandService";
 
 const OfferForm = ({ onSave }) => {

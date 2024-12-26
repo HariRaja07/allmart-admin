@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productService from "../services/productService";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 import brandService from "../services/brandService";
 import { handleFileUpload } from "../hooks/handleFileUpload";
 

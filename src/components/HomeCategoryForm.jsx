@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import homeCategoryService from "../services/homeCategoryService";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 import { handleFileUpload } from "../hooks/handleFileUpload";
 
 const HomeCategoryForm = ({ onSave }) => {
