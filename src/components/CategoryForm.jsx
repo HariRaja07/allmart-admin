@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 import { handleFileUpload } from "../hooks/handleFileUpload";
 
 const CategoryForm = ({ onSave }) => {

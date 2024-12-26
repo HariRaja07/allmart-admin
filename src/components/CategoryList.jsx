@@ -1,5 +1,5 @@
 import React from "react";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 
 const CategoryList = ({ categories, onRefresh }) => {
 

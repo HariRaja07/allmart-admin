@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CategoryForm from "../components/CategoryForm";
 import CategoryList from "../components/CategoryList";
-import categoryService from "../services/categoryService";
+import categoryService from "../services/CategoryService";
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
